@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+
+header, footer {
+	background: #ccc;
+}
+
+.row: {
+	clear: both;
+}
+
+.rowafter {
+	content:"";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+	
+[class*="col-"] {
+	float: left;
+	margin-left: left 2%;
+	background: aqua;
+}
+
+[class*=col-]:first-child {
+	margin-left: 0;
+	background: red;
+
+}
+
+}
+
+.col-12 { width: 100%;}
+.col-11 { width: 100%;}
+.col-10 { width: %;}
+.col-9 { width: %;}
+.col-8 { width: 66%;}
+.col-7 { width: %;}
+.col-6 { width: 49%;}
+.col-5 { width: %;}
+.col-4 { width: 32%;}
+.col-3 { width: %;}
+.col-2 { width: 15%;}
+.col-1 { width: 16.5%;}
+
+ {
+	background: green;
+}
+
+
+section h2 { 
+	text-align: center;
+}
+
+#Panda-Toys {
+	background: fuchsia;
+
+}
+
+#Panda-Food{
+	background: lime;
+}
+
+#Panda-Grooming {
+	background: aqua
+}
+
+
+
+
+.rowfooter: {
+	clear: both;
+}
+
